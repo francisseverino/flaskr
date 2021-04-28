@@ -13,3 +13,6 @@ build/
 *.swp
 *~
 .venv/
+
+.vagrant/
+.vscode/
