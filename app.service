@@ -7,7 +7,7 @@ User=vagrant
 Group=vagrant
 WorkingDirectory=/home/vagrant/flaskr
 Environment="PATH=/.venv/bin"
-ExecStart=/.venv/bin/gunicorn  --bind 0.0.0.0:5000 flaskr:create_app()
+ExecStart=/home/vagrant/flaskr/.venv/bin/gunicorn  --bind 0.0.0.0:5000 flaskr:create_app()
 
 [Install]
 WantedBy=multi-user.target
